@@ -20,9 +20,6 @@ out/
 
 # Dependency directories
 buildSrc/build/
-gradle/
-gradle-cache/
-gradle-plugins/
 
 # Log files
 *.log
