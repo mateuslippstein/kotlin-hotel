@@ -5,7 +5,7 @@ import com.ml.hotel.model.Person
 import com.ml.hotel.repository.PersonRepository
 import org.springframework.dao.DataIntegrityViolationException
 import org.springframework.stereotype.Service
-import javax.persistence.EntityNotFoundException
+import jakarta.persistence.EntityNotFoundException
 
 @Service
 class PersonService(private val personRepository: PersonRepository) {
